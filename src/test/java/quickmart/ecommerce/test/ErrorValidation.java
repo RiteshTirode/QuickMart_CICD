@@ -20,6 +20,7 @@ public class ErrorValidation extends BaseTest{
 		
 		boolean foundProdOnCart=cartPage.verifyAddedProductOnCartPage("ZARA COAT 78");
 		Assert.assertTrue(foundProdOnCart);
+		System.out.println("Test");
 	}
 	
 
